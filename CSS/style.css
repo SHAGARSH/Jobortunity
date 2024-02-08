@@ -1,0 +1,529 @@
+/** COMMON CSS START */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+/** COMMON CSS END */
+
+/** NAV START */
+#job {
+    background-color:#fef8ff;
+}
+#job .row{
+    align-items: center;
+    justify-content: space-between;
+}
+#job0 .row img{
+    align-items: center;
+}
+#job li{
+    padding: 0 27px;
+    display:inline-block ;
+    text-align: end;
+    padding-top: 60px;
+}
+#job li a{
+    font-size: 20px;
+    font-family: 'Arimo', sans-serif;
+    color: #848484;
+
+}
+#job .btn{
+    text-align: center;
+    padding: 20px ;
+    padding-top: 60px;
+ 
+}   
+#job .btn a{
+    width: 168px;
+    height: 60px;
+   
+    font-size: 20px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+   
+}
+#job li a:hover{
+    color: #00b8ef;
+}
+/** NAV ENDS */
+
+/** job-from */
+#jobfrom{
+    background-color:#fef8ff
+}
+#jobfrom .row .tex{
+    width: 50%;
+    padding: 180px 0;
+}
+#jobfrom .row .tex h1{
+    font-size: 58px;
+    font-family: 'Abril Fatface', serif;
+    font-weight: 400;
+    color: #222222;
+}
+#jobfrom .row .tex p{
+    font-size: 18px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    color: #444444;
+    margin-top: 15px;
+    line-height: 30px;
+}
+#jobfrom .row .card{
+    width: 50%;
+    padding-left: 250px;
+    margin-top: 62px;
+}
+/** job-from END */
+
+/** Popular */
+#Popular .hadding {
+    text-align: center;
+    margin: 123px 0 55px 0 ;
+}
+#Popular .hadding h1 {
+    font-size: 32px;
+    font-family: 'Abril Fatface', serif;
+    font-weight: 400;
+    color: #222222;
+    margin-bottom: 26px;
+}
+
+#Popular .hadding p{
+    font-size: 16px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    color: #444444;
+    margin-top: 20px;
+}
+
+#Popular .row .card{
+    width:calc( 25% - 30px);
+    background-color: #f5f5f5;
+    color: #ffffff;
+    text-align: center;
+    margin: 15px;
+    padding: 74px 40px;
+    transform: 0.3s;
+    display: block;
+}
+#Popular .row .card:hover{
+    background-color: #00b8ef;
+    color: #ffffff;
+    display: block;
+    transform: scale(1.2);
+    z-index: 2;
+}
+#Popular .row .card:hover p{
+    color: #ffffff;
+}
+#Popular .row .card:hover h2{
+    color: #ffffff;
+}
+#Popular .row .card h2{
+    font-size: 24px;
+    font-family: 'Abril Fatface', serif;
+    font-weight: 400;
+    color: #222222;
+    margin-top: 16px;
+}
+#Popular .row .card p{
+    font-size:14px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    color: #777777;
+    margin-top: 12px;
+    margin-bottom: 15px;
+}
+/** overlay */
+#Popular .row .card .Overlay{
+    position: absolute;
+    width: 112px;
+    height: 46px;
+    background-color: white;
+    margin-left: 25px;
+    padding:16px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #00b8ef;
+    visibility:hidden; 
+}
+#Popular .row .card:hover  .Overlay {
+    visibility:visible;
+    transition: 0.3s;
+}
+#Popular .row .card:hover {
+    background-color: #00b8ef;
+}
+
+
+/** overlay End */
+
+/** Popular End */
+
+/** Works */
+#Works .container .hadding{
+    text-align: center;
+    padding: 170px 0 60px 0;
+}
+#Works .container .hadding h2{
+    font-size: 32px;
+    font-family: 'Abril Fatface', serif;
+    font-weight: 400;
+    color: #222222;
+    margin-bottom: 25px;
+}
+#Works .container .hadding p{
+    font-size: 16px;
+    font-family:'Arimo', sans-serif;
+    color: #444444;
+    font-weight: 400;
+    padding-top: 20px;
+    line-height: 25px;
+}
+#Works .row .card{
+    width: 33%;
+    text-align: center;
+    margin-bottom: 175px;
+}
+#Works .row .card h4{
+    font-size: 20px;
+    font-family: 'Abril Fatface', serif;
+    font-weight: 400;
+    color: #222222;
+    margin: 20px 0 15px 0;
+}
+#Works .row .card .imgs{
+    background-color: #f5f5f5;
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    margin: auto;
+}
+#Works .row .card p{
+    font-size: 16px;
+    font-family:'Arimo', sans-serif;
+    color: #444444;
+    font-weight: 400;
+ 
+}
+#Works .row .card:hover .imgs {
+    background-color: #00b8ef;
+}
+/** Works End */
+
+
+/** Workers */
+#Workers{
+    padding: 60px;
+    background-color:#f5f5f5;
+}
+#Workers .container .hadding{
+    text-align: center;
+}
+#Workers .container .hadding h2{
+    font-size: 32px;
+    font-family: 'Abril Fatface', serif;
+    font-weight: 400;
+    color: #222222;
+    margin-bottom: 26px;
+}
+#Workers .container .hadding p{
+    font-size: 16px;
+    font-family:'Arimo', sans-serif;
+    color: #444444;
+    font-weight: 400;
+    padding: 20px 0 60px 0;
+
+}
+#Workers .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+#Workers .row .card{
+    width:calc( 32% - 16px);
+    background-color: #ffffff;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    margin: 8px;
+}
+#Workers .row .card h4{
+    font-size: 20px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 700;
+    color: #222222;
+    padding-top: 20px;
+}
+#Workers .row .card p{
+    font-size: 16px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    color: #222222;
+    padding-bottom: 22px;
+}
+
+#Workers .row .card .para{
+    font-size: 14px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 800;
+    color: #222222;
+    margin-left:25% ;
+    text-align: left;
+    margin: auto;
+}
+#Workers .row .card .cnt .para2{
+    width: 100%;
+    font-size: 14px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 800;
+    color: #222222;
+    text-align: right;
+    margin: auto;
+    padding-right: 20px;
+}
+#Workers .row .card .bottom{
+    font-size: 18px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 800;
+    color: #222222;
+    padding-top: 30px;
+}
+#Workers .row .card .bottom a{
+    padding-right: 10px;
+}
+#Workers .row .card:hover a{
+    color:#00b8ef;
+}
+
+#Workers .row  .Browse-cnt{
+    width: 50%;
+    padding: 40px 0;
+
+
+}
+#Workers .row  .Browse-cnt p{
+    font-size: 16px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    color: #444444;
+}
+#Workers .row  .Browse-cnt1 a{
+    width:250px;
+    height: 20px;
+    text-align:center ;
+    margin: auto;
+    display: block;
+    padding:25px 0 40px ;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Arimo', sans-serif;
+    background-color: #3ecaf4;
+    color: #ffffff;
+}
+#Workers .row  .Browse-cnt1{
+    padding-top: 20px;
+}
+#Workers .row  .Browse-cnt1 a img{
+    margin-left: 15px;
+    color: #ffffff;
+}
+
+/** Workers End */
+
+/**  Partners */
+#Milestone .container .hadding {
+    text-align: center;
+    padding: 160px 0 120px 0;
+}
+#Milestone .container .hadding h2{
+    font-size: 32px;
+    font-family: 'Abril Fatface', serif;
+    font-weight: 400;
+    color: #222222;
+    padding-bottom: 25px;
+}
+#Milestone .card {
+    width: 100%;
+    padding-bottom: 100px;
+}
+#Milestone .card .card-cnt{
+    width:calc( 45% - 20px);
+    display:inline-block;
+    margin: 10px;
+    text-align: center;
+    padding-top: 20px;
+}
+#Milestone .card  h5{
+    font-size: 46px;
+    font-family: 'Abril Fatface', serif;
+    font-weight: 400;
+    color: #222222;
+    text-align: right;
+}
+#Milestone .card h4{
+    font-size: 20px;
+    font-family: 'Abril Fatface', serif;
+    font-weight: 400;
+    color: #222222;
+    text-align:right;
+}
+
+#Milestone .card2 .card-img{
+    width: calc(50% - 40px);
+    margin:10px;
+    display:inline-block;
+    flex-wrap: wrap;
+    border: .5px solid #dddddd;
+    padding: 20px 20px 20px 10px;
+
+}
+
+/**  Partners End*/
+
+/** Footer */
+#Footer{
+    width: 100%;
+    height: 600px;
+    background-image: url(../Img/backround-img.jpg);
+    background-size:cover ;
+    color: #ffffff;
+    
+}
+#Footer .container .logo{
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 95px;
+}
+#Footer .row{
+    width: 100%;
+}
+#Footer .row .About{
+    width: 32%;
+}
+#Footer .row .About h4{
+    font-size: 24px;
+    font-family: 'Abril Fatface', serif;
+    font-weight: 400;
+   
+}
+#Footer .row .About p{
+    font-size: 16px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 20px 0;
+}
+#Footer .row .About .redmore a{
+    font-size: 20px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    color: #00b8ef;
+}
+#Footer .row .About .redmore a span{
+    margin-right: 20px;
+}
+#Footer .row .Canditates{
+    width:18%;
+}
+#Footer .row .Canditates h4{
+    font-size: 24px;
+    font-family: 'Abril Fatface', serif;
+    font-weight: 400;
+}
+#Footer .row .Canditates p{
+    font-size: 16px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    padding-top: 28px;
+}
+#Footer .row .Canditates p:hover{
+    color: #01b1e6;
+    padding-left: 30px;
+}
+#Footer .row .Employees{
+    width: 18%;
+}
+#Footer .row .Employees h4{
+    font-size: 24px;
+    font-family: 'Abril Fatface', serif;
+    font-weight: 400;
+}
+#Footer .row .Employees p{
+    font-size: 16px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    padding-top: 28px;
+}
+#Footer .row .Employees p:hover{
+    color: #01b1e6;
+    padding-left: 30px;
+}
+
+#Footer .row .Subscribe{
+    width: 32%;
+}
+#Footer .row .Subscribe h4{
+    font-size: 24px;
+    font-family: 'Abril Fatface', serif;
+    font-weight: 400;
+}
+#Footer .row .Subscribe p{
+    font-size: 16px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+    padding-top: 28px;
+    line-height: 30px;
+}
+#Footer .row .Subscribe a img{
+    padding: 30px 0;
+
+}
+#Footer .row .Subscribe .socialicon a{
+    color: #00b8ef;
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid white;
+    text-align: center;
+    line-height: 35px;
+    background-color: #ffffff;
+}
+#Footer .row .Subscribe .socialicon a:hover{
+    background-color: #00b8ef;
+    color: #ffffff;
+}
+#Footer .Copyright{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 16px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+ 
+}
+
+/** Footer End */
+
+
+
+
